@@ -1,0 +1,81 @@
+.main-albumart {
+    position: absolute;
+    top: 15%;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.main-albumart__blur {
+    width: 65%;
+    filter: blur(0.5rem);
+    position: absolute;
+    z-index: -1;
+}
+
+.play__info {
+    margin-top: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.playbar {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbutton {
+    height: 100px;
+}
+
+.playtime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.playtime__info {
+    display: block;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.playbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 20%;
+    margin-top: 10%;
+}
+.playbutton__play {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    box-shadow: 0 5px 30px 10px rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="range"] {
+    width: 95%;
+    background: gray;
+    outline: none;
+}
+
+form {
+    width: 95%;
+}
+.icon__color {
+    color: gray;
+}

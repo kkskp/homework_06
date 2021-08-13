@@ -1,0 +1,11 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Rubik:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
+/* components */
+@import "components/header.css";
+@import "components/reset.css";
+
+/* screen */
+@import "screen/playlist.css";
+@import "screen/play.css";
