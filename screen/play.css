@@ -43,9 +43,10 @@
     width: 100%;
 }
 
-.playtime__info {
+.playtime__info {    
+    font-family: "Balsamiq Sans", cursive;
     display: block;
-    margin: 10px;
+    margin: 10px 0 10px 0;
     color: rgba(0, 0, 0, 0.5);
 }
 .playbutton {
