@@ -3,13 +3,14 @@
     top: 15%;
     width: 65%;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .main-albumart__blur {
     width: 65%;
     filter: blur(0.5rem);
     position: absolute;
-    z-index: -1;
+    z-index: 0;
 }
 
 .play__info {
@@ -38,7 +39,7 @@
 .playtime {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -68,14 +69,33 @@
 }
 
 input[type="range"] {
-    width: 95%;
-    background: gray;
+    -webkit-appearance: none;
+    overflow: hidden;
+    height: 5px;
+    width: 100%;
+    background: rgb(221, 221, 221);
+    border-radius: 2px;
     outline: none;
 }
 
-form {
-    width: 95%;
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    background-color: black;
+    box-shadow: -100vw 0 0 100vw black;
+    border-radius: 100%;
 }
+
+form {
+    width: 100%;
+}
+
+
 .icon__color {
     color: gray;
 }
+
+

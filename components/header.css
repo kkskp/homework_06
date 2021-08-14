@@ -16,7 +16,6 @@ body {
     align-items: center;
     position: relative;
     padding-bottom: 100px;
-    z-index: -2;
 }
 
 .header {
